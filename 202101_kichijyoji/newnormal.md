@@ -1,11 +1,14 @@
 ---
-title: "令和につかう Terminal"
+title : "令和につかう Terminal"
 theme : "white"
+transition : "fade"
 ---
 
 # 令和につかう Terminal
 
 Windows編
+
+![](img/kichijyojipm.png)
 
 吉祥寺.pm 25 LT
 
@@ -85,6 +88,7 @@ Windows でターミナル、何を使ってますか？
 
 * MicrosoftがOSSとして開発
 * 2020年5月20日にGA (令和に入ってから誕生)
+* 最新版は v1.5.3242.0
 * Microsoft Storeから入手、インストール可能
 * 毎月リリース(開発2W、品質と安定1W、リリース1W)
 
