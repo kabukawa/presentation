@@ -88,11 +88,14 @@ VS Codeで日本語が文字化け👻するんですが
 
 VS Codeの文字コード自動判定有効化
 
-* VS Codeはこの機能がデフォルトOFF
-* 理由として言われるのは
-    * 判定が完全ではない
-    * 海外ではあまり重視されてない
+Settings.json で以下の項目を探して trueにする。<br>
+(最新の「設定」画面ではチェックボックスになっているので ON にするだけでOK)
 
+```json
+"files.autoGuessEncoding": true
+```
+
+* VS Codeはこの機能がデフォルトOFF
 個人的には何も考えずON一択。
 
 ---
@@ -112,7 +115,7 @@ sed -e 'N;s/\n/,/g' -e 's/nkf -g \.\///g' > front_charset.csv
 `euc-jp` 以外にも `utf-8`、`shift-jis`、`iso-2022-jp`
 が有ってワロタ(ワロエナイ)
 
-ちなみにVS Codeは `iso-2022-jp` に対応してないです。
+ちなみにVS Codeは `iso-2022-jp` に対応してないです。{.fragment .fade-right}
 
 ---
 
@@ -184,9 +187,11 @@ git push 🐱しても反映されないんですが
 
 ---
 
-これだけは解決できていないです。
+反映順序を間違えて、消えた履歴、、、
 
-To be continued.🎬
+これだけは解決できていないです。{.fragment .fade-right}
+
+To be continued.🎬{.fragment .fade-right}
 
 ---
 
@@ -205,3 +210,13 @@ To be continued.🎬
 勝負するっきゃないのさ
 
 それがどうゆう意味であれ
+
+---
+
+一句
+
+古くても
+
+なんとかするのが
+
+仕事です
