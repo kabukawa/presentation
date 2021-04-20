@@ -215,8 +215,8 @@ To be continued.🎬{.fragment .fade-right}
 
 一句
 
-古くても
+古くても{.fragment .fade-right}
 
-なんとかするのが
+なんとかするのが{.fragment .fade-right}
 
-仕事です
+仕事です{.fragment .fade-right}
