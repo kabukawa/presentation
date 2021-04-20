@@ -21,9 +21,9 @@ transition : "fade"
 
 ## 現場で開発をしていると
 
-* いろんな環境に出会う
+* いろんな環境🤖に出会う
 * 環境に応じて戦わなければならない
-* 武器は自分で用意するしか無い
+* 武器⚔️は自分で用意するしか無い
 * またもクライアントはWindows
 
 ---
@@ -44,11 +44,11 @@ transition : "fade"
 
 ## 若者の声
 
-VS Codeのリモート接続ができないんですが
+VS Codeのリモート接続🌏ができないんですが
 
 * OSが古いのでCode Serverが動かない
 * 若者はGUIエディタしか使えない
-* vi？emace？黒い画面で操作とか無理です
+* 黒い画面💻で編集とか無理です
 * これが現実の現場
 
 ---
@@ -75,7 +75,7 @@ VS Codeのリモート接続ができないんですが
 
 ## 若者の声
 
-VS Codeで日本語が文字化けするんですが
+VS Codeで日本語が文字化け👻するんですが
 
 * 文字コードが euc-jp
 * MySQLの文字コードも ujis
@@ -118,7 +118,7 @@ sed -e 'N;s/\n/,/g' -e 's/nkf -g \.\///g' > front_charset.csv
 
 ## 若者の声
 
-令和なのにDockerで開発できないんですか？
+Docker🐳で開発できないんですか？
 
 * Docker環境は作ろうとした形跡は有る
 * これでローカルで開発が捗るのでは？
@@ -129,7 +129,7 @@ sed -e 'N;s/\n/,/g' -e 's/nkf -g \.\///g' > front_charset.csv
 
 ### ミラーを探して構築だ！
 
-リポジトリ定義ファイル `yum.repos.d/CentOS-Base.repo` を修正する。
+リポジトリ定義ファイル `yum.repos.d/CentOS-Base.repo` を修正。
 
 (ググると以下のような対応が結構見つかる)
 
@@ -164,7 +164,7 @@ baseurl=http://ftp.iij.ad.jp/pub/linux/centos-vault/5.11/os/$basearch/
 
 ## 若者の声
 
-git push しても反映されないんですが
+git push 🐱しても反映されないんですが
 
 * ソースはGitHubのリポジトリにpush
 * svnは辞めたと聞いていた
@@ -180,12 +180,13 @@ git push しても反映されないんですが
 * Jenkinsタスクで反映
 * svn→git は自動で実行
 * git→svn は手動実行
+* そして事故は発生する。。。
 
 ---
 
 これだけは解決できていないです。
 
-To be continued.
+To be continued.🎬
 
 ---
 
@@ -199,7 +200,7 @@ To be continued.
 
 ---
 
-配られたカードで
+🃏配られたカードで
 
 勝負するっきゃないのさ
 
