@@ -95,7 +95,7 @@ Settings.json で以下の項目を探して trueにする。<br>
 "files.autoGuessEncoding": true
 ```
 
-* VS Codeはこの機能がデフォルトOFF{.fragment .fade-right}
+* VS Codeはこの機能がデフォルトOFF<br>
 個人的には何も考えずON一択。{.fragment .fade-right}
 
 ---
@@ -156,11 +156,12 @@ baseurl=https://archive.kernel.org/centos-vault/5.11/os/$basearch/
 
 * archive.kernel.org は重いので、タイムアウトでイメージ作成が成功しない。
     * ちゃんとミラーサイトを指定しましょう。{.fragment .fade-right}
-```
+
+```{.fragment .fade-right}
 baseurl=http://ftp.iij.ad.jp/pub/linux/centos-vault/5.11/os/$basearch/
 ```
 * Docker Desktop for Windows のオプションで
-`Use the WSL 2 based engine` がONになっていると古いカーネルのLinux OSが起動できない問題が有るので、起動できなかったらこれをOFFにする。
+`Use the WSL 2 based engine` がONになっていると古いカーネルのLinux OSが起動できない問題が有るので、起動できなかったらこれをOFFにする。{.fragment .fade-right}
 
 
 ---
@@ -169,7 +170,7 @@ baseurl=http://ftp.iij.ad.jp/pub/linux/centos-vault/5.11/os/$basearch/
 
 git push 🐱しても反映されないんですが
 
-* ソースはGitHubのリポジトリにpush
+* ソースはGitHubのリポジトリにpush{.fragment .fade-right}
 * svnは辞めたと聞いていた{.fragment .fade-right}
 * なんとサーバーへのデプロイはsvn{.fragment .fade-right}
 * というか基本はsvnだった{.fragment .fade-right}
